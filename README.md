@@ -19,7 +19,7 @@ For classification, I ran the doc-term matrix through a Logistic Regression mode
 
 As an extra step, I took the topics as a proxy for the individual tweets and used that as a feature for a traditional classification model, along with other features I engineered. The features were tested on a variety of models with the following results:
 
-
+![image](https://user-images.githubusercontent.com/77559909/165991807-95927b4c-ca02-4254-9556-4a9679204b77.png)
  
 Overall, the XGBoost model actually outperformed all the other traditional classification models and the Naïve Bayes models. 
 
