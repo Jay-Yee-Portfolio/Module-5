@@ -36,4 +36,4 @@ Overall, the XGBoost model actually outperformed all the other traditional class
 Numpy, Pandas, Sciki-learn, Matplotlib, NLTK, RegEx
 
 ## Communication
-A PowerPoint was presented to show my findings. Additionally, all my work and material is uploaded to GitHub.
+My findings can be found in the presentation and code included in this repo. 
