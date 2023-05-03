@@ -13,14 +13,12 @@ The dataset is comprised of tweets made by Trump (minus retweets) from June 16, 
 For the EDA portion, the project utilized numerous panda features to wrangle the data while illustrating it through python’s matplotlib. Additionally, a Scattertext illustration was included to break out words for President Trump vs. his staff. Then for the NLP portion, the text was preprocessed using regex, stemming, and removal of stop words while sentiment analysis was conducted using the VADER library. 
 
 During the EDA process, a scattertext graph was created to showcase the difference in wording and language used in tweets made by President Trump vs. his staff. The below graph illustrates how President Trump's language is more subjective and reflective of his speaking mannerism (big, bad, media, republican, crooked, win, bernie, badly) vs. Staff Tweets that were more objective and reflects instructions or updates (join, via, lets, support, tomorrow, American, received, see, donald, signing, live). 
-![image](https://user-images.githubusercontent.com/77559909/236008187-5214b2d8-62a5-4cf4-b9ea-0781e5e1b013.png)
+
+![image](https://user-images.githubusercontent.com/77559909/236008046-6afa2202-fe82-47f6-b243-da36b8f605b3.png)
 
 Futher, the timing of when these tweets were made from what mobile device also saw a pattern. President Trump was known to use an Android while it's theorized that his staff members could have made tweets from an iPad, iPhone, PC, or other devices. Of note, the Android user (President Trump) tweets frequently throughout the morning into late afternoon. The non-Android user (staff member) tweets from late afternoon through evening which reflect any annocuements made to President Trump's followers on significant campaign events such as debates, voting deadlines, rallies, etc. Times in the graph below are based on Eastern Standard Time. 
 
 ![image](https://user-images.githubusercontent.com/77559909/236009215-343b55c3-f3ec-4a8f-89b9-0a844f2dfa41.png)
-
-
-![image](![image](https://user-images.githubusercontent.com/77559909/236008046-6afa2202-fe82-47f6-b243-da36b8f605b3.png)
 
 An extensive topic modeling was conducted by developing multiple doc-term matrixes using CountVectorizer and TF-IDF tokenizers. These matrixes were fed through NMF and LSA models and after an iterative process, the NMF model using the CountVectorizer doc-term matrix was chosen. 
 
