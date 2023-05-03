@@ -12,7 +12,7 @@ The dataset is comprised of tweets made by President Trump (minus retweets) from
 ## Algorithms
 For the EDA portion, the project utilized pandas to wrangle the data while illustrating it through python’s matplotlib. Additionally, a Scattertext illustration was included to break out words for President Trump vs. his staff. Then for the NLP portion, the text was preprocessed using regex, stemming, and removal of stop words while sentiment analysis was conducted using the VADER library. 
 
-The scattertext graph below was created to showcase the difference in wording and language used in tweets made by President Trump vs. his staff. The below graph illustrates wording/language differences based on whether the tweet came from an Android or non-Android device. The Android device serves as a proxy for President Trump while his staff could have made tweets from a range of other devices including iPad, iPhone, PC, etc: 
+The scattertext graph below was created to showcase the difference in wording and language used in tweets made by President Trump vs. his staff. The Android device serves as a proxy for President Trump while his staff could have made tweets from a range of other devices including iPad, iPhone, PC, etc: 
 * President Trump's language was more subjective and reflective of his speaking mannerism (big, bad, media, republican, lying ted, crooked, win, bernie, badly) 
 * The staff's language was more objective and reflective of instructions or updates to events (join, via, lets, support, tomorrow, American, received, see, donald, signing, live) 
 
