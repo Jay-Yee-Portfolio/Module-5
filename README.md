@@ -12,7 +12,9 @@ The dataset is comprised of tweets made by Trump (minus retweets) from June 16, 
 ## Algorithms
 For the EDA portion, the project utilized numerous panda features to wrangle the data while illustrating it through python’s matplotlib. Additionally, a Scattertext illustration was included to break out words for President Trump vs. his staff. Then for the NLP portion, the text was preprocessed using regex, stemming, and removal of stop words while sentiment analysis was conducted using the VADER library. 
 
-During the EDA process, a scattertext graph was created to showcase the difference in wording and language used in tweets made by President Trump vs. his staff. The below graph illustrates how President Trump's language is more subjective and reflective of his speaking mannerism (big, bad, media, republican, crooked, win, bernie, badly) vs. Staff Tweets that were more objective and reflects instructions or updates (join, via, lets, support, tomorrow, American, received, see, donald, signing, live). 
+During the EDA process, a scattertext graph was created to showcase the difference in wording and language used in tweets made by President Trump vs. his staff. The below graph illustrates two different users: 
+1.) President Trump's language is more subjective and reflective of his speaking mannerism (big, bad, media, republican, crooked, win, bernie, badly) 
+2.) Staff Tweets that were more objective and reflects instructions or updates (join, via, lets, support, tomorrow, American, received, see, donald, signing, live). 
 
 ![image](https://user-images.githubusercontent.com/77559909/236008046-6afa2202-fe82-47f6-b243-da36b8f605b3.png)
 
