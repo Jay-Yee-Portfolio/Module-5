@@ -1,4 +1,5 @@
-# Module-5
+# Twitter Sentiment Analysis and Topic Modeling 
+### Identified Multiple Users on President Trump’s Twitter  
 
 ## Abstract
 It has been well documented that there are multiple users for President Trump’s twitter account based on what device a tweet was made from. The question is can we try to predict who is posting based on the contents of the tweet? That question was what sparked this project, which uses an archive of President Trump’s twitter profile now that his profile has been banned. 
